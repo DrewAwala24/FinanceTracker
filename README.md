@@ -1,8 +1,8 @@
-# Finance Tracker 💰
+# Finance Tracker 
 
 A desktop application to track personal finances, manage budgets, and monitor spending patterns.
 
-## Features ✨
+## Features 
 
 - **User Authentication** - Sign up and login with phone number
 - **Dashboard** - View current balance and recent transactions
@@ -14,21 +14,20 @@ A desktop application to track personal finances, manage budgets, and monitor sp
 - **Export Data** - Export transactions to CSV
 - **Visual Indicators** - Color-coded budget progress bars
 
-## Technologies Used 🛠️
+## Technologies Used 
 
 - **Java Swing** - Desktop GUI framework
 - **MySQL** - Database (via XAMPP)
 - **JDBC** - Database connectivity
 - **Git** - Version control
 
-## Prerequisites 📋
+## Prerequisites 
 
 - Java JDK 8 or higher
 - XAMPP (with MySQL)
-- IntelliJ IDEA (recommended)
+- IntelliJ IDEA 
 
-## Installation 🚀
+## Installation 
 
 1. **Clone the repository**
-   ```bash
    git clone https://github.com/DrewAwala24/FinanceTracker.git
