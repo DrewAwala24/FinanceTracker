@@ -43,7 +43,7 @@ public class InsightsGenerator {
 
     public String generateSpendingAnalysis() {
         StringBuilder spendingInsights = new StringBuilder();
-        spendingInsights.append("💰 SPENDING ANALYSIS\n");
+        spendingInsights.append("SPENDING ANALYSIS\n");
         spendingInsights.append("--------------------\n");
 
         try {
@@ -319,7 +319,7 @@ public class InsightsGenerator {
             if (monthlyExpenses > 0) {
                 double emergencyFund = monthlyExpenses * 6; // 6 months of expenses
 
-                recommendations.append("💰 EMERGENCY FUND\n");
+                recommendations.append(" EMERGENCY FUND\n");
                 recommendations.append("• Goal: $").append(String.format("%.2f", emergencyFund))
                         .append(" (6 months of expenses)\n");
 
@@ -341,7 +341,7 @@ public class InsightsGenerator {
                         recommendations.append("    - Extending your savings timeline\n");
                     }
                 } else {
-                    recommendations.append("  ✅ Congratulations! You have a fully-funded emergency fund!\n");
+                    recommendations.append("  Congratulations! You have a fully-funded emergency fund!\n");
                     recommendations.append("  • Consider investing excess funds for growth\n");
                 }
             }
@@ -356,21 +356,21 @@ public class InsightsGenerator {
                         .append(" (30% of your savings)\n");
 
                 recommendations.append("• Investment options to consider:\n");
-                recommendations.append("  - 📊 Index Funds (S&P 500): Average 10% annual return\n");
-                recommendations.append("  - 🏦 High-Yield Savings: 4-5% APY, low risk\n");
-                recommendations.append("  - 📈 Roth IRA: Tax-free growth for retirement\n");
-                recommendations.append("  - 💼 401(k): Employer match = free money!\n");
+                recommendations.append("  -  Index Funds (S&P 500): Average 10% annual return\n");
+                recommendations.append("  -  High-Yield Savings: 4-5% APY, low risk\n");
+                recommendations.append("  -  Roth IRA: Tax-free growth for retirement\n");
+                recommendations.append("  -  401(k): Employer match = free money!\n");
             }
 
             // Debt management recommendations
             if (monthlyExpenses > monthlyIncome * 0.5) {
-                recommendations.append("\n💳 DEBT MANAGEMENT\n");
+                recommendations.append("\n DEBT MANAGEMENT\n");
                 recommendations.append("• Your expenses are >50% of income\n");
                 recommendations.append("• Debt reduction strategies:\n");
-                recommendations.append("  - 🎯 Debt Snowball: Pay smallest debts first\n");
-                recommendations.append("  - 📉 Debt Avalanche: Pay highest interest first\n");
-                recommendations.append("  - 🔄 Balance Transfer: 0% APR cards\n");
-                recommendations.append("  - 🤝 Consolidation: Single lower payment\n");
+                recommendations.append("  -  Debt Snowball: Pay smallest debts first\n");
+                recommendations.append("  -  Debt Avalanche: Pay highest interest first\n");
+                recommendations.append("  -  Balance Transfer: 0% APR cards\n");
+                recommendations.append("  -  Consolidation: Single lower payment\n");
             }
 
             // Budget rule recommendation

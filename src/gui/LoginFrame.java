@@ -34,14 +34,14 @@ public class LoginFrame extends JFrame {
 
         // Title
         JLabel titleLabel = new JLabel("Finance Tracker");
-        titleLabel.setFont(new Font("Arial", Font.BOLD, 28));
+        titleLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 28));
         titleLabel.setForeground(new Color(25, 118, 210));
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         mainPanel.add(titleLabel, gbc);
 
         // Subtitle
         JLabel subtitleLabel = new JLabel("Track your expenses easily");
-        subtitleLabel.setFont(new Font("Arial", Font.PLAIN, 14));
+        subtitleLabel.setFont(new Font("Montserrat Alternates", Font.PLAIN, 14));
         subtitleLabel.setForeground(Color.GRAY);
         subtitleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         mainPanel.add(subtitleLabel, gbc);
@@ -50,7 +50,7 @@ public class LoginFrame extends JFrame {
 
         // Login method selector
         JLabel methodLabel = new JLabel("Login with:");
-        methodLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        methodLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 14));
         mainPanel.add(methodLabel, gbc);
 
         String[] loginMethods = {"Phone Number", "Email", "Username"};
@@ -83,7 +83,7 @@ public class LoginFrame extends JFrame {
         // Remember me checkbox
         rememberCheck = new JCheckBox("Remember me");
         rememberCheck.setBackground(new Color(240, 248, 255));
-        rememberCheck.setFont(new Font("Arial", Font.PLAIN, 12));
+        rememberCheck.setFont(new Font("Montserrat Alternates", Font.PLAIN, 12));
         mainPanel.add(rememberCheck, gbc);
 
         // Forgot password link
@@ -225,6 +225,7 @@ public class LoginFrame extends JFrame {
                 // Show welcome message
                 String welcomeMessage = String.format(
                         "Welcome back, %s!\n\nLogged in with: %s\n" +
+                                "Current Balance: $%.2f",
                         user.getUsername(),
                         loginMethod,
                         user.getCurrentBalance()

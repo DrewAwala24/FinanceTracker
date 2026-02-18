@@ -32,13 +32,13 @@ public class SignUpFrame extends JFrame {
 
         // Title
         JLabel titleLabel = new JLabel("Create Account");
-        titleLabel.setFont(new Font("Arial", Font.BOLD, 28));
+        titleLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 28));
         titleLabel.setForeground(new Color(25, 118, 210));
         mainPanel.add(titleLabel, gbc);
 
         // Subtitle with info
         JLabel infoLabel = new JLabel("You can login with any of these later");
-        infoLabel.setFont(new Font("Arial", Font.ITALIC, 12));
+        infoLabel.setFont(new Font("Montserrat Alternates", Font.ITALIC, 12));
         infoLabel.setForeground(new Color(100, 100, 100));
         mainPanel.add(infoLabel, gbc);
 
@@ -46,7 +46,7 @@ public class SignUpFrame extends JFrame {
 
         // Username field with hint
         JLabel nameLabel = new JLabel("Username *");
-        nameLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        nameLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 14));
         mainPanel.add(nameLabel, gbc);
 
         nameField = Components.createRoundedTextField(20);
@@ -55,7 +55,7 @@ public class SignUpFrame extends JFrame {
 
         // Email field
         JLabel emailLabel = new JLabel("Email Address *");
-        emailLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        emailLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 14));
         mainPanel.add(emailLabel, gbc);
 
         emailField = Components.createRoundedTextField(20);
@@ -64,7 +64,7 @@ public class SignUpFrame extends JFrame {
 
         // Phone field
         JLabel phoneLabel = new JLabel("Phone Number *");
-        phoneLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        phoneLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 14));
         mainPanel.add(phoneLabel, gbc);
 
         phoneField = Components.createRoundedTextField(20);
@@ -73,7 +73,7 @@ public class SignUpFrame extends JFrame {
 
         // Password field with strength meter
         JLabel passLabel = new JLabel("Password *");
-        passLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        passLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 14));
         mainPanel.add(passLabel, gbc);
 
         passwordField = Components.createRoundedPasswordField(20);
@@ -102,7 +102,7 @@ public class SignUpFrame extends JFrame {
 
         // Confirm Password
         JLabel confirmLabel = new JLabel("Confirm Password *");
-        confirmLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        confirmLabel.setFont(new Font("Montserrat Alternates", Font.BOLD, 14));
         mainPanel.add(confirmLabel, gbc);
 
         confirmPasswordField = Components.createRoundedPasswordField(20);
