@@ -21,7 +21,6 @@ public class DatabaseConnection {
         }
     }
 
-    // ADD THIS METHOD
     public static void closeConnection() {
         if (connection != null) {
             try {
